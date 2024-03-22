@@ -96,6 +96,7 @@ const Notification = styled.div`
   gap: 2rem;
   padding: 2rem;
   border-bottom: ${(props) => (props.isread ? "2px solid  #f7fafd" : "")};
+  border-radius: 0.8rem;
   cursor: pointer;
   img {
     width: 4.5rem;
